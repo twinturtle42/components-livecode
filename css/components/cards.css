@@ -1,0 +1,66 @@
+.card-deal {
+  background-color: white;
+  border-radius: 4px;
+  padding: 32px;
+}
+
+.card-deal > h3 {
+  color: #968FF8;
+  margin-bottom: 0px;
+
+}
+.card-deal > p {
+  margin-top: 5px;
+}
+
+.card-bubbles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-bubble {
+  margin-top: 8px;
+  background-color: #F5F6F7;
+  width: 40%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card-deal-row {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.card-row-col-1 {
+}
+
+.card-row-col {
+  text-align: left;
+}
+
+.card-row-col > h3 {
+  color: #968FF8;
+}
+
+.card-deal-bars {
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+}
+.card-deal-bar {
+  border-radius: 2px;
+  margin-left: 4px;
+  width: 8px;
+  height: 20px;
+}
+
+.card-deal-bar-green {
+  background-color: green;
+}
+
+.card-deal-bar-grey {
+  background-color: grey;
+}
